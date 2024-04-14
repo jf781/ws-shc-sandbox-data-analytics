@@ -8,9 +8,9 @@ terraform {
   required_version = "~> 1.0"
 
   cloud {
-    organization = "___TFC_ORG_NAME___"
+    organization = "Joe-Demo"
     workspaces {
-      name = "___WORKSPACE_NAME___"
+      name = "ws-shc-sandbox-data-analytics"
     }
   }
 
